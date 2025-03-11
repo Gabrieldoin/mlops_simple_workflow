@@ -6,7 +6,7 @@ on:
       - develop
   pull_request:
     branches:
-      - develop
+      - staging
 
 jobs:
   retraining_model:
