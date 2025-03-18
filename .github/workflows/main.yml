@@ -53,7 +53,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build docker image
-        run: docker build -t Gabrieldoin/mlops_simple_workflow .
+        run: docker build -t gabrieldoin/clasebreastcancer .
 
       - name: Docker push to Dockerhub
-        run: docker push Gabrieldoin/mlops_simple_workflow
+        run: docker push gabrieldoin/clasebreastcancer
